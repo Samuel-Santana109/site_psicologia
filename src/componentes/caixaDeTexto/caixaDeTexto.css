@@ -1,0 +1,14 @@
+.custom_header {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .custom_body {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  

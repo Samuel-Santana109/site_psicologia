@@ -1,0 +1,25 @@
+.sectionSobreMIm{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sectionSobreMIm h1{
+    font-size: 8rem;
+    display: flex;
+
+}
+
+.conTeudo{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.divTexto p{
+    font-size: 2.5rem;
+}

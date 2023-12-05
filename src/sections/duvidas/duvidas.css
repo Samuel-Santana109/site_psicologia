@@ -1,0 +1,21 @@
+.sectionDuvidasSobremim{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sectionDuvidasSobremim h1{
+    font-size: 8rem;
+    display: flex;
+
+}
+
+.SobreMimconTeudo{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
