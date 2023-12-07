@@ -16,7 +16,7 @@ export function Duvidas(){
                     <CaixaDeTexto 
                         title="Por que fazer terapia ?"
                         item="Fazer psicoterapia possibilita o autoconhecimento, a solução de conflitos e a melhora da saúde mental. É nela que o paciente olha para si mesmo e pensa nas razões que levam à determinados pensamentos ou atitudes em relação a uma área de sua vida"
-                    />
+                    /> 
                     <CaixaDeTexto 
                         title="Qual a duração de uma terapia ?"
                         item="Não há uma resposta única, porque depende muito das questões que estão sendo trabalhadas pelo paciente, de quão complexas e arraigadas são, bem como da frequência com que se realiza a psicoterapia. Isso sim, os atendimentos costumam durar 50 minutos e ser realizados semanal ou quinzenalmente."

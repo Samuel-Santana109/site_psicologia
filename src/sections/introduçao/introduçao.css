@@ -1,95 +1,132 @@
-
-.hero{
+/* Estilos padrão para o componente .hero */
+.hero {
     min-height: 100vh;
     background-color: darkgray;
-    border-radius: 0 0 300px 0;
     padding: 1rem;
-
+    
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-}
-
-
-.hero_conteudo {
-    display: flex;
-    justify-content: space-between;
-}
-
-.hero_img {
-    margin-left: 4rem ;
-}
-
-.hero_texto {
-    margin-left: 5rem;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  /* Estilos para o conteúdo da seção hero */
+  .hero_conteudo {
     text-align: center;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 7rem; /* Espaçamento entre elementos */
+  }
+  
+  /* Estilos para a imagem na seção hero */
+  .imagem_hero {
+    max-width: 100%; /* Ajusta a largura máxima da imagem ao contêiner pai */
+    height: 50rem; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaço extra por ser elemento inline */
+    border-radius: 1rem; /* Deixa a imagem com bordas arredondadas */
+    overflow: hidden; /* Garante que a imagem fique dentro do contêiner arredondado */
+  }
+  
+  .imagem_hero:hover {
+    transform: scale(1.05); /* Aumenta ao passar o mouse */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+  }
+  
+  /* Estilos para o texto na seção hero */
+  .hero_texto {
+    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
-
-.hero_texto h1 {
+  }
+  
+  .hero_texto h1 {
     font-family: var(--font-cursive);
-    font-size: 7rem;
+    font-size: 4rem; /* Tamanho do título */
     font-weight: 400;
-    line-height: 80px;
-    letter-spacing: 0.2rem;
+    line-height: 1.2; /* Espaçamento entre linhas */
+    letter-spacing: 0.1rem;
     color: black;
-    margin-bottom: 20px;
-
-}
-
-
-.hero_texto h1 span {
-    color:  white;
-}
-
-.hero_texto p {
+    margin-bottom: 2rem;
+  }
+  
+  .hero_texto h1 span {
+    color: white;
+  }
+  
+  .hero_texto p {
+    text-align: center;
     font-family: var(--body-font);
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.6rem; /* Tamanho do texto */
     margin-bottom: 20px;
     max-width: 80%;
-    line-height: 30px;
-    letter-spacing: 0.2rem;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    letter-spacing: 0.1rem;
     color: black;
-}
-
-.btn_outline {
-    width: 250px;
+  }
+  
+  /* Estilos para o botão na seção hero */
+  .btn_outline {
+    width: 50%; /* Largura responsiva */
+    max-width: 250px; /* Largura máxima */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 8px;
     background-color: #ffb127;
     border-radius: 50px;
     border: 1px solid transparent;
     cursor: pointer;
-    padding: 8px 3px;
-
-
-}
-
-.btn_outline:hover {
+  }
+  
+  .btn_outline:hover {
     background-color: rgb(66, 42, 1)b127;
     transition: all 0.5s;
-}
-
-
-.btn_outline  span {
-    display: inline;
-    font-size: 1.4rem;
+  }
+  
+  .btn_outline span {
+    font-size: 1.2rem; /* Tamanho do texto do botão */
     text-transform: uppercase;
     font-weight: 600;
     color: black;
     margin-left: 8px;
-
-}
-
-.btn_outline i {
-    font-size: 17px;
+  }
+  
+  .btn_outline i {
+    font-size: 1.4rem;
     color: white;
-}
-
+  }
+  
+  /* Media query para dispositivos menores */
+  @media screen and (max-width: 768px) {
+    .hero_conteudo{
+        border-radius: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .imagem_hero {
+      width: 25rem;
+      height: 25rem;
+    }
+  
+    .hero_texto h1 {
+      font-size: 3rem; /* Tamanho do título para telas menores */
+    }
+  
+    .hero_texto p {
+      font-size: 1.4rem; /* Tamanho do texto para telas menores */
+    }
+  
+    .btn_outline {
+      width: 80%; /* Largura responsiva para telas menores */
+      max-width: 200px; /* Largura máxima para telas menores */
+    }
+  
+    .btn_outline span {
+      font-size: 1rem; /* Tamanho do texto do botão para telas menores */
+    }
+  }
+  

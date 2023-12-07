@@ -1,5 +1,6 @@
 .sectionDuvidasSobremim{
     min-height: 100vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,4 +19,11 @@
     display: flex;
     align-items: center;
     gap: 4rem;
+}
+
+@media screen and (max-width: 678px){
+    .SobreMimconTeudo{
+        display: flex;
+        flex-direction: column;
+    }
 }

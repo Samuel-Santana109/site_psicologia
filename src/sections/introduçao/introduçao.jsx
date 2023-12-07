@@ -1,5 +1,6 @@
 import './introduçao.css';
 import Img from '../../assets/sentadoNaMesa.jpg'
+import { Image,Col } from 'react-bootstrap';
 
 export function Introduçao(){
     return(
@@ -7,13 +8,15 @@ export function Introduçao(){
 
             <div className="hero_conteudo">
                 <div className="hero_img">
-                    <img src={Img} alt=""  className='imagem'/>
-                </div>
+                  
+                        <Image src={Img} className='imagem_hero'  alt='imagem de perfil' />
+                   
+                 </div>
 
                 <div className="hero_texto">
                     <h1>Tudo bem <span>não estar bem</span> o tempo todo</h1>
                     <p>Agende agora uma sessão de terapia e se conheça melhor.</p>
-                    <a href="" className="btn_outline" ><i className="bxl-whatsapp"></i><span>agende seu horário</span></a>
+                    <a href="#" className="btn_outline" ><i className="bxl-whatsapp"></i>agende seu horário</a>
                 </div>
 
             </div>
@@ -21,3 +24,7 @@ export function Introduçao(){
         </section>
     )
 }
+
+
+                  //  <img src={Img} alt=""  className='imagem_hero'/>
+              
