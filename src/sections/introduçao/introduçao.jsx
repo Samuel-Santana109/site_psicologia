@@ -1,6 +1,6 @@
 import './introduçao.css';
-import Img from '../../assets/sentadoNaMesa.jpg'
-import { Image,Col } from 'react-bootstrap';
+import Img from '../../assets/imagemDoutorRogerio.jpg'
+import { Image } from 'react-bootstrap';
 
 export function Introduçao(){
     return(
@@ -16,7 +16,12 @@ export function Introduçao(){
                 <div className="hero_texto">
                     <h1>Tudo bem <span>não estar bem</span> o tempo todo</h1>
                     <p>Agende agora uma sessão de terapia e se conheça melhor.</p>
-                    <a href="#" className="btn_outline" ><i className="bxl-whatsapp"></i>agende seu horário</a>
+                    <a
+                     href="#" 
+                     className="btn_outline" 
+                     >
+                        <i ></i> agende seu horário
+                    </a>
                 </div>
 
             </div>

@@ -1,5 +1,5 @@
 import './sobreMim.css'
-import Img from '../../assets/palestrando.jpg'
+import Img from '../../assets/fotoInstagram.png'
 
 export function SobreMim(){
     return(
