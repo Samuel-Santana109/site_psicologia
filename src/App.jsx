@@ -1,4 +1,3 @@
-import './App.css'
 
 import { Header } from './componentes/header/header'
 import { Duvidas } from './sections/duvidas/duvidas'
@@ -10,11 +9,10 @@ function App() {
   return (
       <>
         <Header />
-        <Introduçao />
-        <SobreMim />
-        <Especialidade />
-        <Duvidas />
-        
+        <Introduçao id="Home"/>
+        <SobreMim id="SobreMim"/>
+        <Especialidade id="Especialidades"/>
+        <Duvidas id="Duvidas"/>   
       </>
   )
 }

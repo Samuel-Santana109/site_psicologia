@@ -11,9 +11,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
     flex-wrap: wrap;
+}
 
+.servico_conteudo div{
+
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
 }
 
 .servico_conteudo{
@@ -23,6 +28,9 @@
 
 .servico_conteudo div{
     display: flex;
+
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .titulo_servicos{
@@ -99,4 +107,8 @@
     border-right: 3px solid var(--terceira-cor);
     width: 98%;
     height: 98%;
+}
+
+@media screen and {
+    .
 }

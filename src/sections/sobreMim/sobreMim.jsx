@@ -7,8 +7,9 @@ export function SobreMim(){
             <h1>Sobre Mim</h1>
 
             <div className='conTeudo'>
-                <div>
-                    <img src={Img} alt="" className='imagem'/>
+                
+                <div className='DivSobreMimImagem'>
+                    <img src={Img} alt="" />
                 </div>
 
                 <div className='divTexto'>

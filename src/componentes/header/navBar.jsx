@@ -25,11 +25,10 @@ export function NavBar() {
           {/* Define uma lista de links de navegação à direita (ms-auto). */}
           <Nav className="ms-auto">
             {/* Cada link de navegação é um componente `Nav.Link` que possui um link para uma âncora correspondente. */}
-            <Nav.Link href="#header" className="text-light">Home</Nav.Link>
+            <Nav.Link href="#Home" className="text-light">Home</Nav.Link>
             <Nav.Link href="#SobreMim" className="text-light">Sobre mim</Nav.Link>
-            <Nav.Link href="#Projetos" className="text-light">Especialidades</Nav.Link>
-            <Nav.Link href="#Oportunidades" className="text-light">Duvidas</Nav.Link>
-            <Nav.Link href="#Tecnologias" className="text-light">Agendamento</Nav.Link>
+            <Nav.Link href="#Especialidades" className="text-light">Especialidades</Nav.Link>
+            <Nav.Link href="#Duvidas" className="text-light">Duvidas</Nav.Link>
           </Nav>
         </Navbar.Collapse>
 

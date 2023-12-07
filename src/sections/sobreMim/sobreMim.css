@@ -8,17 +8,42 @@
     text-align: center; /* Alinhamento do texto ao centro */
     padding: 2rem;
   }
+
+.conTeudo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+.DivSobreMimImagem{
+  width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.divTexto{
+  width: 50%;
+}
+
+.DivSobreMimImagem img {
+    max-width: 80%; /* Garante que a imagem não ultrapasse seu contêiner */
+    max-height: 100%; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Deixa a imagem com bordas arredondadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    object-fit: cover; /* Garante que a imagem se ajuste ao tamanho do contêiner mantendo a proporção */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Adiciona transições suaves */
+  }
+
+.DivSobreMimImagem img:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta um pouco a sombra ao passar o mouse */
+  }
   
   .sectionSobreMIm h1 {
     font-size: 3.5rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .conTeudo {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
+    margin-bottom: 3rem;
+}
   
   .divTexto p {
     font-size: 1.6rem;
@@ -36,12 +61,21 @@
         gap: 2rem;
       }
 
+      .DivSobreMimImagem{
+        width: 100%;
+      }
+      
+      .divTexto{
+        width: 100%;
+      }
+      
+
     .sectionSobreMIm h1 {
       font-size: 2.5rem;
     }
   
     .divTexto p {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
     }
   }
   

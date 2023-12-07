@@ -8,22 +8,62 @@
     flex-wrap: wrap;
 }
 
-.sectionDuvidasSobremim h1{
-    font-size: 8rem;
-    display: flex;
-
-}
-
 .SobreMimconTeudo{
-    padding: 4rem;
     display: flex;
     align-items: center;
-    gap: 4rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.divDuvidasImagem{
+    display: flex;
+    justify-content: center;
+}
+
+.divTexto{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divDuvidasImagem img {
+    max-width: 80%; /* Garante que a imagem não ultrapasse seu contêiner */
+    max-height: 100%; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Deixa a imagem com bordas arredondadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    object-fit: cover; /* Garante que a imagem se ajuste ao tamanho do contêiner mantendo a proporção */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Adiciona transições suaves */
+  }
+
+.divDuvidasImagem img:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta um pouco a sombra ao passar o mouse */
+  }
+
+.sectionDuvidasSobremim h1{
+    font-size: 7rem;
+    display: flex;
+}
+
+.SobreMimconTeudo div {
+    width: 50%;
+}
+
+.divTexto div{
+    width: 100%;
+
 }
 
 @media screen and (max-width: 678px){
     .SobreMimconTeudo{
         display: flex;
         flex-direction: column;
+    }
+
+    .SobreMimconTeudo div {
+        width: 100%;
+      
     }
 }

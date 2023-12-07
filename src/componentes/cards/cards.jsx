@@ -1,11 +1,12 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import './card.css'
 
 export function CardFunçao({ imagem, titulo, text, button }) {
     return (
-        <Card style={{ width: '25rem', display: 'flex', flexDirection:'column' }}>
+        <Card className="card">
             <Card.Img 
-                style={{ height: '25rem'}}
+                className='cardImagem'
                 variant="top"
                 src={imagem} 
                 alt="Imagem"
