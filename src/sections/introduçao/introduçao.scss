@@ -1,122 +1,120 @@
-/* Estilos padrão para o componente .hero */
-.hero {
-    min-height: 100vh;
-    background-color: darkgray;
+@import '../../style/padroes.scss'; 
+@import '../../style/mixin.sass';
+
+.hero{
+    @include altura;
+    @include flexCenterCenter;
+    background-color: $backgroundDarkgray;
     padding: 1rem;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-  }
+
+}
   
   /* Estilos para o conteúdo da seção hero */
   .hero_conteudo {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 2rem; /* Espaçamento entre elementos */
+    @include flexCenterCenter;
+    @include textCenter;
   }
   
-  /* Estilos para a imagem na seção hero */
+  .hero_img{
+     @include larguraResponsiva;
+  }
+
+
   .imagem_hero {
     max-width: 100%; /* Ajusta a largura máxima da imagem ao contêiner pai */
-    height: 50rem; /* Mantém a proporção da imagem */
-    display: block; /* Remove espaço extra por ser elemento inline */
+    max-height: 60rem; /* Mantém a proporção da imagem */
     border-radius: 1rem; /* Deixa a imagem com bordas arredondadas */
     overflow: hidden; /* Garante que a imagem fique dentro do contêiner arredondado */
   }
   
   .imagem_hero:hover {
-    transform: scale(1.05); /* Aumenta ao passar o mouse */
+    transform: scale(1.01); /* Aumenta ao passar o mouse */
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
   }
   
   /* Estilos para o texto na seção hero */
   .hero_texto {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+    @include larguraResponsiva;
+    @include textCenter;
+    @include flexColumn;
     align-items: center;
   }
   
   .hero_texto h1 {
     font-family: var(--font-cursive);
-    font-size: 4rem; /* Tamanho do título */
+    font-size: $tamanhoLetrasTitulosUm; /* Tamanho do título */
+    color: $corBlack;
     font-weight: 400;
     line-height: 1.2; /* Espaçamento entre linhas */
     letter-spacing: 0.1rem;
-    color: black;
+    
     margin-bottom: 2rem;
   }
   
   .hero_texto h1 span {
-    color: white;
+    color: $cor;
   }
   
   .hero_texto p {
-    text-align: center;
+    @include textCenter;
+    font-size: $tamanhoLetrasParagrafos; 
     font-family: var(--body-font);
     font-weight: 400;
-    font-size: 1.6rem; /* Tamanho do texto */
     margin-bottom: 20px;
     max-width: 80%;
+    
     line-height: 1.5; /* Espaçamento entre linhas */
     letter-spacing: 0.1rem;
-    color: black;
+    color: $corBlack;
   }
   
   /* Estilos para o botão na seção hero */
   .btn_outline {
-    width: 50%; /* Largura responsiva */
+    @include larguraResponsiva;
+    @include flexCenterCenter;
     max-width: 250px; /* Largura máxima */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 8px;
 
-    background-color: rgb(70, 70, 70);
+    background-color: $backgroundButton;
     border-radius: 50px;
     border: 1px solid transparent;
     cursor: pointer;
   }
   
   .btn_outline:hover {
-    background-color: rgb(66, 42, 1)b127;
+    background-color: $backgroundButtonHover;
     transition: all 0.5s;
   }
   
   .btn_outline {
-    font-size: 1.2rem; /* Tamanho do texto do botão */
-    text-transform: uppercase;
+    font-size: $tamanhoLetrasTitulosTres; /* Tamanho do texto do botão */
+    text-transform: $texttransform;
+    color: $cor;
     font-weight: 600;
-    color: white;
     margin-left: 8px;
   }
   
- 
-  
-
   /* Media query para dispositivos menores */
   @media screen and (max-width: 768px) {
     .hero_conteudo{
         border-radius: 0 0 0 0;
-        display: flex;
-        flex-direction: column;
+        @include flexColumn
     }
-    .imagem_hero {
-      width: 25rem;
-      height: 25rem;
+   
+     .hero_img{
+      width: 60%;
+    }
+ 
+    .hero_texto{
+      @include larguraResponsivaCemPorCento;
     }
   
     .hero_texto h1 {
-      font-size: 3rem; /* Tamanho do título para telas menores */
+      font-size: $tamanhoLetrasTitulosUm; /* Tamanho do título para telas menores */
     }
   
     .hero_texto p {
-      font-size: 1.4rem; /* Tamanho do texto para telas menores */
+      font-size: $tamanhoLetrasParagrafos; /* Tamanho do texto para telas menores */
     }
   
     .btn_outline {
@@ -125,7 +123,7 @@
     }
   
     .btn_outline span {
-      font-size: 1rem; /* Tamanho do texto do botão para telas menores */
+      font-size: $tamanhoLetrasTitulosQuatro; /* Tamanho do texto do botão para telas menores */
     }
   }
   
