@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import './card.css'
+import './card.scss'
 
 export function CardFunçao({ imagem, titulo, text, button }) {
     return (

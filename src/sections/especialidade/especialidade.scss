@@ -1,29 +1,28 @@
+@import '../../style/padroes.scss'; 
+@import '../../style/mixin.sass';
+
 .servicos {
-    min-height: 100vh;
-    background-color:darkgray;
-    display: flex;
-    flex-direction: column;
+    @include altura;
+    @include flexColumn;
     align-items: center;
     justify-content: center;
+    background-color:$backgroundDarkgray;
 }
 
 .servico_conteudo {
-    display: flex;
-    flex-direction: column;
+    @include flexColumn;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .servico_conteudo{
-    display: flex;
-    flex-direction: column;
+    @include flexColumn;
 }
 
 .servico_conteudo div{
+    @include flexContentCenter;
     margin-bottom: 1rem;
-    display: flex;
-    justify-content: center;
     gap: 1rem;
 }
 
@@ -33,10 +32,10 @@
 
 .titulo_servicos h1 {
     font-family: var(--font-cursive);
+    font-size: $tamanhoLetrasTitulosUm;
+    color: $corBlack;
     margin: 0 auto;
-    font-size: 7rem;
     font-weight: 100;
-    color: black;
     margin-bottom: 35px;
 }
 
@@ -45,8 +44,7 @@
     height: 180px;
     max-height: 200px;
     
-    display: flex;
-    flex-direction: column;
+    @include flexColumn;
     align-items: center;
     justify-content: center;
     margin: 20px;
@@ -55,7 +53,7 @@
 }
 
 .box p {
-    font-size: 2rem;
+    font-size: $tamanhoLetrasParagrafos;
     margin-bottom: 3rem;
 }
 
@@ -106,8 +104,7 @@
 
 @media screen and (max-width: 768px) {
     .servico_conteudo div{
-        display: flex;
-        flex-direction: column;
+        @include flexColumn;
     }
 }
 

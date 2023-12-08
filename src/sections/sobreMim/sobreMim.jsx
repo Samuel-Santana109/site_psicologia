@@ -1,4 +1,4 @@
-import './sobreMim.css'
+import './sobreMim.scss'
 import Img from '../../assets/fotoInstagram.png'
 
 export function SobreMim(){

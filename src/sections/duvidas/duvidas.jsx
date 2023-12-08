@@ -1,4 +1,4 @@
-import './duvidas.css'
+import './duvidas.scss'
 import Img from '../../assets/palestrando.jpg'
 import { CaixaDeTexto } from '../../componentes/caixaDeTexto/caixaDeTexto.jsx'
 

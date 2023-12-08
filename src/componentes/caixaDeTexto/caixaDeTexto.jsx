@@ -1,5 +1,5 @@
 import Accordion from 'react-bootstrap/Accordion';
-import './caixaDeTexto.css'
+import './caixaDeTexto.scss'
 
 export function CaixaDeTexto({item, title}){
     return(

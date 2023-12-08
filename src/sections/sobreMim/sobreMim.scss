@@ -1,11 +1,11 @@
+@import '../../style/padroes.scss'; 
+@import '../../style/mixin.sass';
+
 /* Estilos para a seção sobre */
 .sectionSobreMIm {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center; /* Alinhamento do texto ao centro */
+    @include altura;
+    @include flexColumnCeterCenter;
+    @include textCenter; /* Alinhamento do texto ao centro */
     padding: 2rem;
   }
 
@@ -17,13 +17,12 @@
 
 
 .DivSobreMimImagem{
-  width: 50%;
-    display: flex;
-    justify-content: center;
+    @include larguraResponsiva;
+    @include flexContentCenter;
 }
 
 .divTexto{
-  width: 50%;
+ @include larguraResponsiva;
 }
 
 .DivSobreMimImagem img {
@@ -36,17 +35,16 @@
   }
 
 .DivSobreMimImagem img:hover {
-    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta um pouco a sombra ao passar o mouse */
+      @include imagemHover;
   }
   
   .sectionSobreMIm h1 {
-    font-size: 3.5rem;
+    font-size: $tamanhoLetrasTitulosUm;
     margin-bottom: 3rem;
 }
   
   .divTexto p {
-    font-size: 1.6rem;
+    font-size: $tamanhoLetrasParagrafos;
     line-height: 1.6;
     color: #555;
   }
@@ -54,28 +52,26 @@
   /* Estilos para dispositivos menores */
   @media screen and (max-width: 768px) {
     .conTeudo {
+        @include columnCentralizado;
         padding: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         gap: 2rem;
       }
 
       .DivSobreMimImagem{
-        width: 100%;
+        @include larguraResponsivaCemPorCento;
       }
       
       .divTexto{
-        width: 100%;
+        @include larguraResponsivaCemPorCento;
       }
       
 
     .sectionSobreMIm h1 {
-      font-size: 2.5rem;
+      font-size: $tamanhoLetrasTitulosUm;
     }
   
     .divTexto p {
-      font-size: 1.5rem;
+      font-size: $tamanhoLetrasParagrafos;
     }
   }
   

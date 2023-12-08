@@ -1,18 +1,15 @@
-.sectionDuvidasSobremim{
-    min-height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+@import '../../style/padroes.scss'; 
+@import '../../style/mixin.sass';
+
+.sectionDuvidasSobremim{
+    @include altura;
+    @include flexColumnCeterCenter;
     flex-wrap: wrap;
 }
 
 .SobreMimconTeudo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+    @include flexCenterCenter;
 }
 
 .divDuvidasImagem{
@@ -21,11 +18,8 @@
 }
 
 .divTexto{
+    @include flexColumnCeterCenter;
     padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .divDuvidasImagem img {
@@ -38,22 +32,20 @@
   }
 
 .divDuvidasImagem img:hover {
-    transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta um pouco a sombra ao passar o mouse */
+    @include imagemHover;
   }
 
 .sectionDuvidasSobremim h1{
-    font-size: 7rem;
+    font-size: $tamanhoLetrasTitulosUm;
     display: flex;
 }
 
 .SobreMimconTeudo div {
-    width: 50%;
+    @include larguraResponsiva;
 }
 
 .divTexto div{
-    width: 100%;
-
+     @include larguraResponsivaCemPorCento;
 }
 
 @media screen and (max-width: 678px){
@@ -63,7 +55,7 @@
     }
 
     .SobreMimconTeudo div {
-        width: 100%;
+        @include larguraResponsivaCemPorCento;
       
     }
 }

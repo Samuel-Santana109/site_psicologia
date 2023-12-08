@@ -1,4 +1,4 @@
-import './especialidade.css'
+import './especialidade.scss'
 import { CardFunçao } from '../../componentes/cards/cards'
 
 export function Especialidade(){
