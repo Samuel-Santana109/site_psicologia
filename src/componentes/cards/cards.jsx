@@ -15,7 +15,7 @@ export function CardFunçao({ imagem, titulo, text, button }) {
                 }}
             />
 
-            <Card.Body style={{ display: 'flex', flexDirection:'column' }}>
+            <Card.Body className='cardBody'>
                 <Card.Title style={{ fontFamily: 'Arial', fontSize: '1.5rem', fontWeight: 'bold' }}>
                     {titulo}
                 </Card.Title>

@@ -1,4 +1,5 @@
 
+import Footer from './componentes/footer/footer'
 import { Header } from './componentes/header/header'
 import { Duvidas } from './sections/duvidas/duvidas'
 import { Especialidade } from './sections/especialidade/especialidade'
@@ -13,6 +14,7 @@ function App() {
         <SobreMim id="SobreMim"/>
         <Especialidade id="Especialidades"/>
         <Duvidas id="Duvidas"/>   
+        <Footer />
       </>
   )
 }

@@ -1,9 +1,19 @@
 .card{
+    max-width: 30rem;
     display: flex;
     flex-direction: column; 
 }
 
 .cardImagem{
+    height: 100%;
+    width: 100%;
     min-height: 10rem;
     max-height: 20rem;
+}
+
+.cardBody{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
 }

@@ -1,6 +1,8 @@
 import './introduçao.css';
 import Img from '../../assets/imagemDoutorRogerio.jpg'
 import { Image } from 'react-bootstrap';
+import { FaWhatsapp } from 'react-icons/fa';
+import { whatsapp } from '../../componentes/Links/Links';
 
 export function Introduçao(){
     return(
@@ -9,7 +11,7 @@ export function Introduçao(){
             <div className="hero_conteudo">
                 <div className="hero_img">
                   
-                        <Image src={Img} className='imagem_hero'  alt='imagem de perfil' />
+                  <Image src={Img} className='imagem_hero'  alt='imagem de perfil' />
                    
                  </div>
 
@@ -17,10 +19,10 @@ export function Introduçao(){
                     <h1>Tudo bem <span>não estar bem</span> o tempo todo</h1>
                     <p>Agende agora uma sessão de terapia e se conheça melhor.</p>
                     <a
-                     href="#" 
+                        {...whatsapp}
                      className="btn_outline" 
                      >
-                        <i ></i> agende seu horário
+                       <FaWhatsapp />  <span>agende seu horário</span>
                     </a>
                 </div>
 

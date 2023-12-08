@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 7rem; /* Espaçamento entre elementos */
+    gap: 2rem; /* Espaçamento entre elementos */
   }
   
   /* Estilos para a imagem na seção hero */
