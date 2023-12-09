@@ -53,6 +53,7 @@
   
   .hero_texto h1 span {
     color: $cor;
+    font-family: var(--font-cursive);
   }
   
   .hero_texto p {
@@ -75,14 +76,14 @@
     max-width: 250px; /* Largura máxima */
     padding: 8px;
 
-    background-color: $backgroundButton;
+    background-color: rgb(83, 83, 83);
     border-radius: 50px;
     border: 1px solid transparent;
     cursor: pointer;
   }
   
   .btn_outline:hover {
-    background-color: $backgroundButtonHover;
+    background-color: rgb(37, 37, 37);
     transition: all 0.5s;
   }
   
@@ -110,11 +111,15 @@
     }
   
     .hero_texto h1 {
-      font-size: $tamanhoLetrasTitulosUm; /* Tamanho do título para telas menores */
+      font-size: $tamanhoLetrasTitulosUmMenor; /* Tamanho do título para telas menores */
     }
   
     .hero_texto p {
-      font-size: $tamanhoLetrasParagrafos; /* Tamanho do texto para telas menores */
+      font-size: $tamanhoLetrasTitulosQuatro; /* Tamanho do texto para telas menores */
+    }
+
+    .hero_texto a {
+      font-size: $tamanhoLetrasTitulosQuatro; /* Tamanho do texto para telas menores */
     }
   
     .btn_outline {

@@ -21,13 +21,13 @@
   box-sizing: border-box;
 }
 
+
 html {
   font-size: 62.5%;
 }
 
-body {
- /**/
-}
+
+
 
 ul {
   list-style: none;
@@ -46,10 +46,6 @@ a {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Adiciona transições suaves */
 }
 
-.imagem:hover {
-  transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta um pouco a sombra ao passar o mouse */
-}
 
 
 

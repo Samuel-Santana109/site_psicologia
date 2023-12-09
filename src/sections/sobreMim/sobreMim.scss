@@ -15,14 +15,20 @@
   gap: 2rem;
 }
 
-
-.DivSobreMimImagem{
-    @include larguraResponsiva;
-    @include flexContentCenter;
-}
-
 .divTexto{
  @include larguraResponsiva;
+}
+
+.divTexto p {
+  font-size: $tamanhoLetrasTitulosTres;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+.DivSobreMimImagem{
+  @include larguraResponsiva;
+  @include flexContentCenter;
 }
 
 .DivSobreMimImagem img {
@@ -38,17 +44,13 @@
       @include imagemHover;
   }
   
-  .sectionSobreMIm h1 {
+.sectionSobreMIm h1 {
     font-size: $tamanhoLetrasTitulosUm;
     margin-bottom: 3rem;
+    font-family: var(--font-cursive);
 }
   
-  .divTexto p {
-    font-size: $tamanhoLetrasParagrafos;
-    line-height: 1.6;
-    color: #555;
-  }
-  
+
   /* Estilos para dispositivos menores */
   @media screen and (max-width: 768px) {
     .conTeudo {

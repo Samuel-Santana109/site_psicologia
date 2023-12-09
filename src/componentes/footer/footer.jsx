@@ -1,8 +1,8 @@
 
 import {FaInstagram, FaTiktok, FaWhatsapp } from 'react-icons/fa';
-import { instagram, whatsapp, tiktok } from '../Links/Links';
+import { instagram, whatsapp, tiktok, techWorld } from '../Links/Links';
 
-import '../../style/footer.scss';
+import './footer.scss';
 
 const Footer = () => {
   return (
@@ -39,15 +39,15 @@ const Footer = () => {
       </div>
   
       <div className='d-flex justify-content-center'>
-        <a {...tiktok} className="btn btn-outline-light btn-floating m-1" href="" role="button">
+        <a {...tiktok} className="btn btn-outline-light btn-floating m-1" role="button">
           
           <FaTiktok />
         </a>
-        <a {...instagram} className="btn btn-outline-light btn-floating m-1" href="" role="button">
+        <a {...instagram} className="btn btn-outline-light btn-floating m-1"  role="button">
           
           <FaInstagram />
         </a>
-        <a {...whatsapp}className="btn btn-outline-light btn-floating m-1" href="556192771319" role="button">
+        <a {...whatsapp} className="btn btn-outline-light btn-floating m-1" role="button">
           
           <FaWhatsapp />
         </a>
@@ -55,9 +55,9 @@ const Footer = () => {
       </div>
 
       <hr />
-      <div className="text-center p-3">
-        © 2023 Desenvolvimento: 
-        <a className="text-white" href="https://mdbootstrap.com/">Tech World</a>
+      <div className="divFooter text-center p-3">
+        <span>© 2023 Desenvolvimento: </span>
+        <a className="text-white btn btn-outline-light btn-floating m-1" {...techWorld} >Tech World</a>
       </div>
     </footer>
   );

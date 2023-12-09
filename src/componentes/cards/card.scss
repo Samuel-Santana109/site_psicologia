@@ -1,19 +1,35 @@
+@import '../../style/padroes.scss';
+@import '../../style/mixin.sass';
+
+
 .card{
     max-width: 30rem;
-    display: flex;
-    flex-direction: column; 
+    @include flexColumn;
 }
 
 .cardImagem{
+    @include larguraResponsivaCemPorCento;
     height: 100%;
-    width: 100%;
     min-height: 10rem;
     max-height: 20rem;
 }
 
 .cardBody{
-    width: 100%;
-    
-    display: flex;
-    flex-direction: column;
+    @include larguraResponsivaCemPorCento;
+    @include flexColumn;
 }
+
+.cardBody h4{
+    font-size: $tamanhoLetrasTitulosTres;
+    font-Weight: 'bold'  
+}
+
+.cardBody p{
+    font-size: $tamanhoLetrasParagrafos;
+}
+
+.cardBody Button{
+    font-size: $tamanhoLetrasButton;
+    text-transform: $texttransform;
+}
+

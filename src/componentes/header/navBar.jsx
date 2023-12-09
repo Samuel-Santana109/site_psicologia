@@ -22,16 +22,13 @@ export function NavBar() {
            O `id` "navbar-nav" e o `aria-controls` do botão de alternância devem coincidir. */}
 
         <Navbar.Collapse id="navbar-nav">
-          {/* Define uma lista de links de navegação à direita (ms-auto). */}
           <Nav className="ms-auto">
-            {/* Cada link de navegação é um componente `Nav.Link` que possui um link para uma âncora correspondente. */}
-            <Nav.Link href="#Home" className="text-light">Home</Nav.Link>
-            <Nav.Link href="#SobreMim" className="text-light">Sobre mim</Nav.Link>
-            <Nav.Link href="#Especialidades" className="text-light">Especialidades</Nav.Link>
-            <Nav.Link href="#Duvidas" className="text-light">Duvidas</Nav.Link>
+            <Nav.Link href="#Home" className="linksNavBar text-light">Home</Nav.Link>
+            <Nav.Link href="#SobreMim" className="linksNavBar text-light">Sobre mim</Nav.Link>
+            <Nav.Link href="#Especialidades" className="linksNavBar text-light">Especialidades</Nav.Link>
+            <Nav.Link href="#Duvidas" className="linksNavBar text-light">Duvidas</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-
       </Container>
     </Navbar>
   );

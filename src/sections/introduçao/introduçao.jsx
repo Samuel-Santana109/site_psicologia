@@ -18,7 +18,7 @@ export function Introduçao(){
                     <h1>Tudo bem <span>não estar bem</span> o tempo todo</h1>
                     <p>Agende agora uma sessão de terapia e se conheça melhor.</p>
                     <a
-                        {...whatsapp}
+                    {...whatsapp}
                      className="btn_outline" 
                      >
                        <FaWhatsapp />  <span>agende seu horário</span>

@@ -1,0 +1,18 @@
+@import '../../style/padroes.scss';
+@import '../../style/mixin.sass';
+
+.footer{
+    display: block;
+}
+
+.footer p{
+    font-size: $tamanhoLetrasParagrafos;
+}
+
+.footer a{
+    font-size: $tamanhoLetrasParagrafos;
+}
+
+.divFooter span{
+    font-size: $tamanhoLetrasParagrafos;
+}

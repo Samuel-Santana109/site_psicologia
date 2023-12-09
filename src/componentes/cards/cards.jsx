@@ -16,13 +16,13 @@ export function CardFunçao({ imagem, titulo, text, button }) {
             />
 
             <Card.Body className='cardBody'>
-                <Card.Title style={{ fontFamily: 'Arial', fontSize: '1.5rem', fontWeight: 'bold' }}>
-                    {titulo}
+                <Card.Title>
+                    <h4>{titulo}</h4>
                 </Card.Title>
-                <Card.Text style={{ fontFamily: 'Arial', fontSize: '1rem' }}>
-                    {text}
+                <Card.Text >
+                    <p>{text}</p>
                 </Card.Text>
-                <Button variant="primary" style={{ textTransform: 'uppercase' }}>
+                <Button >
                     {button}
                 </Button>
             </Card.Body>
