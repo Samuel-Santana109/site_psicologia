@@ -20,8 +20,8 @@ const Footer = () => {
           <div className="col-md-6">
             <h4>Contato</h4>
             <address>
-              <p><i className="bi bi-geo-alt"></i> EsTou aqui para  ajudar nas suas necessidades pessoais </p>
-              <p><i className="bi bi-envelope"></i> E-mail: rogerioo@xxxxxx</p>
+              <p><i className="bi bi-geo-alt"></i> Estou aqui para  ajudar nas suas necessidades pessoais </p>
+              <p><i className="bi bi-envelope"></i> E-mail: rogeriogourgelpsi@gmail.com</p>
               <p><i className="bi bi-telephone"></i> Telefone: +55 (61) 9277-1319</p>
             </address>
           </div>
