@@ -2,12 +2,19 @@
 @import '../../style/mixin.sass';
 
 .hero{
-    @include altura;
-    @include flexCenterCenter;
+    align-items: stretch;
     background-color: $backgroundDarkgray;
     padding: 1rem;
-
+    gap: 5rem;
+    @include altura;
+    @include flexColumnCeterCenter;
+    @include textCenter; /* Alinhamento do texto ao centro */
 }
+.hero h1{
+  font-size: $tamanhoLetrasTitulosUm;
+font-family: var(--font-cursive);
+}
+
   
   /* Estilos para o conteúdo da seção hero */
   .hero_conteudo {
@@ -97,8 +104,15 @@
   
   /* Media query para dispositivos menores */
   @media screen and (max-width: 768px) {
+
+    .hero{
+      @include altura;
+      gap: 1rem;
+  }
+  
     .hero_conteudo{
         border-radius: 0 0 0 0;
+        height: 100%;
         @include flexColumn
     }
    

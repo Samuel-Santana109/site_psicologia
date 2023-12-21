@@ -8,6 +8,8 @@ export function Introduçao(){
     return(
         <section id="Home" className="hero">
 
+            <h1>Rogerio Gourgel</h1>
+
             <div className="hero_conteudo">
 
                 <div className="hero_img">
