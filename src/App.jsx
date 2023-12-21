@@ -10,10 +10,10 @@ function App() {
   return (
       <>
         <Header />
-        <Introduçao id="Home"/>
-        <SobreMim id="SobreMim"/>
-        <Especialidade id="Especialidades"/>
-        <Duvidas id="Duvidas"/>   
+        <Introduçao />
+        <SobreMim />
+        <Especialidade />
+        <Duvidas />   
         <Footer />
       </>
   )

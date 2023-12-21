@@ -3,7 +3,7 @@ import Img from '../../assets/fotoInstagram.png'
 
 export function SobreMim(){
     return(
-       <section className='sectionSobreMIm'>
+       <section id="SobreMim" className='sectionSobreMIm'>
             <h1>Sobre Mim</h1>
 
             <div className='conTeudo'>

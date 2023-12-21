@@ -3,7 +3,7 @@ import { CardFunçao } from '../../componentes/cards/cards'
 
 export function Especialidade(){
     return(
-        <section id="servicos" className="servicos">
+        <section id="Especialidades" className="servicos">
           <div className="titulo_servicos"><h1>Especialidade</h1></div>
 
                 <div className="servico_conteudo">

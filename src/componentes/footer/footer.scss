@@ -11,6 +11,12 @@
 
 .footer a{
     font-size: $tamanhoLetrasParagrafos;
+    color: darkgray;
+}
+
+.footer a:hover{
+    font-size: $tamanhoLetrasParagrafos;
+    color: darkgray;
 }
 
 .divFooter span{

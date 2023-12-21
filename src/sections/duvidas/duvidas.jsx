@@ -4,7 +4,7 @@ import { CaixaDeTexto } from '../../componentes/caixaDeTexto/caixaDeTexto.jsx'
 
 export function Duvidas(){
     return(
-       <section className='sectionDuvidasSobremim'>
+       <section id="Duvidas" className='sectionDuvidasSobremim'>
             <div>
                 <h1>Duvidas</h1>
             </div>

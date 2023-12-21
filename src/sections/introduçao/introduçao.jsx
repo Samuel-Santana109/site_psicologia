@@ -6,7 +6,7 @@ import { whatsapp } from '../../componentes/Links/Links';
 
 export function Introduçao(){
     return(
-        <section className="hero">
+        <section id="Home" className="hero">
 
             <div className="hero_conteudo">
 
