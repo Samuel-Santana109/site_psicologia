@@ -32,13 +32,13 @@ export function Duvidas(){
                          <CaixaDeTexto
                             title="É preciso revelar todos os segredos ao psicólogo ?"
                             item="Você, enquanto paciente, é quem decide sobre o que se fala durante a psicoterapia. Você não precisa falar sobre temas que resultam ser incômodos, especialmente no princípio, quando o vínculo de confiança com o profissional está sendo estabelecido. Aos poucos você vai se conectando com sigo mesma/o e permitindo que os conteúdos emerjam."
-                                             />
+                        />
                      </div>
                      <div>
                          <CaixaDeTexto
                             title="Como saber que preciso de terapia ?"
                             item=" Se você sente que experimenta um mal-estar crescente, se tem sintomas de algum transtorno, padrões tóxicos ou se deseja ampliar seu autoconhecimento para viver uma vida mais plena e equilibrada, saiba que é um forte candidato para fazer terapia. O mais importante é entender que terapia não é coisa de doido, e que se trata de um processo benéfico a qualquer idade."
-                                             />
+                        />
                      </div>
                 </div>
             </div>

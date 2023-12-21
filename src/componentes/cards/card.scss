@@ -31,5 +31,18 @@
 .cardBody Button{
     font-size: $tamanhoLetrasButton;
     text-transform: $texttransform;
+    background-color: #333; /* Cor de fundo cinza mais escura */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 8px 16px; /* Espaçamento interno */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer; /* Cursor ao passar por cima */
+    transition: background-color 0.3s ease; /* Transição suave */
 }
+  
+  /* Estilos para o botão ao passar o mouse */
+.cardBody Button:hover {
+    background-color: #555; /* Cor de fundo alterada ao passar o mouse */
+  }
+  
 

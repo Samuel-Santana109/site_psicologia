@@ -106,5 +106,9 @@
     .servico_conteudo div{
         @include flexColumn;
     }
+
+    .titulo_servicos{
+        margin: 1rem;
+    }
 }
 

@@ -22,7 +22,7 @@ export function CardFunçao({ imagem, titulo, text, button }) {
                 <Card.Text >
                     <p>{text}</p>
                 </Card.Text>
-                <Button >
+                <Button className="customButton">
                     {button}
                 </Button>
             </Card.Body>

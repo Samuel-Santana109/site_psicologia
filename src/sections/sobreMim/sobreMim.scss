@@ -15,11 +15,11 @@
   gap: 2rem;
 }
 
-.divTexto{
+.divTextoSobreMim{
  @include larguraResponsiva;
 }
 
-.divTexto p {
+.divTextoSobreMim p {
   font-size: $tamanhoLetrasTitulosTres;
   line-height: 1.6;
   color: #555;
@@ -63,7 +63,7 @@
         @include larguraResponsivaCemPorCento;
       }
       
-      .divTexto{
+      .divTextoSobreMim{
         @include larguraResponsivaCemPorCento;
       }
       
@@ -72,7 +72,7 @@
       font-size: $tamanhoLetrasTitulosUm;
     }
   
-    .divTexto p {
+    .divTextoSobreMim p {
       font-size: $tamanhoLetrasParagrafos;
     }
   }
