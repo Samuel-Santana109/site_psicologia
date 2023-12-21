@@ -1,8 +1,8 @@
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+//import Button from 'react-bootstrap/Button';
 import './card.scss'
 
-export function CardFunçao({ imagem, titulo, text, button }) {
+export function CardFunçao({ imagem, titulo, text, button, link }) {
     return (
         <Card className="card">
             <Card.Img 
@@ -22,9 +22,9 @@ export function CardFunçao({ imagem, titulo, text, button }) {
                 <Card.Text >
                     <p>{text}</p>
                 </Card.Text>
-                <Button className="customButton">
-                    {button}
-                </Button>
+                    <a className="customButton" href={link} target='_blank'   rel="noreferrer">
+                        {button}
+                    </a>
             </Card.Body>
         </Card>
     );

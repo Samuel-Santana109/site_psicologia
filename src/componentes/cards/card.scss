@@ -14,6 +14,24 @@
     max-height: 20rem;
 }
 
+.customButton {
+    background-color: #494949; /* Cinza médio */
+    color: #fff; /* Texto branco */
+    border: none;
+    padding: 2% 4%; /* Altere os valores para ajustar o preenchimento */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em; /* Use em para um tamanho de fonte responsivo */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    box-sizing: border-box; /* Inclui preenchimento e borda na largura total */
+    text-transform: uppercase;
+    font-size: 1.3rem
+  }
+  
+
 .cardBody{
     @include larguraResponsivaCemPorCento;
     @include flexColumn;

@@ -13,18 +13,21 @@ export function Especialidade(){
                         titulo="Casais"
                         text="Construindo relacionamentos fortes juntos, passo a passo."
                         button="Descubra mais"
+                        link="https://www.instagram.com/rogeriogurgel.psi/"
                     />
                     <CardFunçao
                         imagem="https://cdn.pixabay.com/photo/2015/06/28/23/02/depression-824998_640.jpg"
                         titulo="Adultos"
                         text="O caminho para uma vida mais plena e equilibrada."
                         button="Saiba Mais"
+                        link="https://www.tiktok.com/@rogeriogurgel.psi"
                     />
                     <CardFunçao
                         imagem="https://images.pexels.com/photos/19255740/pexels-photo-19255740/free-photo-of-varandas-galerias-varanda-sacada.jpeg?auto=compress&cs=tinysrgb&w=400"
                         titulo="Terapia Familiar"
                         text="Unindo laços, fortalecendo vínculos: A família em primeiro lugar."
                         button="Explore Opções"
+                        link="https://www.instagram.com/rogeriogurgel.psi/"
                     />
                 </div>
                 <div>
@@ -33,18 +36,21 @@ export function Especialidade(){
                         titulo="Terapia Cognitiva Comportamental"
                         text="Desenvolvendo uma mente mais saudável e equilibrada"
                         button="Descubra Soluções"
+                        link="https://www.instagram.com/rogeriogurgel.psi/"
                     />
                     <CardFunçao
                         imagem="https://cdn.pixabay.com/photo/2018/03/10/12/34/economy-3213967_1280.jpg"
                         titulo="Gestão de Pessoas"
                         text="Potencializando o capital humano para o sucesso organizacional."
                         button="Aprimore Talentos"
+                        link="https://www.tiktok.com/@rogeriogurgel.psi"
                     />
                     <CardFunçao
                         imagem="https://cdn.pixabay.com/photo/2014/11/02/09/15/despair-513528_640.jpg"
                         titulo="Síndrome do Impostor"
                         text="Superando dúvidas e alcançando o verdadeiro potencial."
                         button="Supere Barreiras"
+                        link="https://www.tiktok.com/@rogeriogurgel.psi"
                     />
                 </div>
 
