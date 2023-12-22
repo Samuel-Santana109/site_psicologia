@@ -21,7 +21,7 @@ const Footer = () => {
             <h4>Contato</h4>
             <address>
               <p><i className="bi bi-geo-alt"></i> Estou aqui para  ajudar nas suas necessidades pessoais </p>
-              <p><i className="bi bi-envelope"></i> E-mail: rogeriogourgelpsi@gmail.com</p>
+              <p><i className="bi bi-envelope"></i> E-mail: rogeriogurgelpsi@gmail.com</p>
               <a href='https://wa.me/556192771319'><i className="bi bi-telephone"></i> Telefone: +55 (61) 9277-1319</a>
             </address>
           </div>
