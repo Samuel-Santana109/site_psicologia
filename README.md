@@ -1,8 +1,16 @@
-# React + Vite
+# Modelo Site de Psicologia em React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um site de psicologia desenvolvido em React utilizando Vite como bundler.
+Site vendido para um psicologo https://rogeriopsi.vercel.app/
 
-Currently, two official plugins are available:
+## Visualização Online
+Uma versão deste modelo está disponível para visualização no seguinte link: [Site de Psicologia - Visualização Online](https://rogeriopsi.vercel.app/)
+## Descrição do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é um modelo de site de psicologia construído com tecnologias modernas como React e Vite. Ele oferece uma estrutura inicial pronta para um site, com a possibilidade de ser personalizado e expandido de acordo com as necessidades específicas do cliente.
+
+## Recursos e Funcionalidades
+
+- **Estrutura Base em React:** Utiliza a biblioteca React para a construção da interface do site.
+- **Rápido e Eficiente com Vite:** Usa Vite como bundler para um desenvolvimento rápido e eficiente.
+- **Possibilidade de Customização:** Facilidade para personalizar e adicionar novos recursos conforme necessário.
